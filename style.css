@@ -1,0 +1,53 @@
+body{
+    animation-name: none; 
+    background-color:aliceblue; 
+}
+.cal{ 
+    position:relative;
+    width:400px;
+    border:10px solid grey;
+    border-radius:0px 30px 0px 30px;
+    padding:20px 20px 50px 20px;
+}
+
+input{ 
+    background-color:gray;
+    color:white;
+    width:80px;
+    font-size:20px;
+    font-weight:900;
+    border-radius:0px 10px 0px 10px;
+    margin-left:13px;
+    margin-top:10px;
+    text-shadow:0px 0px 10px black, 0px 0px 10px red;
+}
+input.display{ 
+    position:relative;
+    display:block;
+    width:350px;
+    margin:5px auto;
+    font-size:20px;
+    padding:10px;
+    box-shadow:4px 0px 12px green;
+    border-radius:0px 10px 0px 10px;
+}
+input.clear{ 
+    background-color:red;
+}
+input.equal{
+    background-color:black;
+}
+p{
+    text-decoration:underline;
+}
+p.topic{
+    font-weight:bold;
+    text-shadow:0px 0px 10px black, 0px 0px 10px grey;
+    text-align:center;
+    text-decoration:none;
+}
+div{
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow:0px 0px 20px black, 0px 0px 20px;
+}
